@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="View_Controller.HomeController">
+   <children>
+      <Label fx:id="homeTitleLabel" layoutX="217.0" layoutY="30.0" text="Thaxton Scheduler Home">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <Button fx:id="customersButton" layoutX="102.0" layoutY="127.0" mnemonicParsing="false" onAction="#onCustomersButton" text="Customers" />
+      <Button fx:id="appointmentsButton" layoutX="92.0" layoutY="200.0" mnemonicParsing="false" onAction="#onAppointmentsButton" text="Appointments" />
+      <Button fx:id="typeMonthReportButton" layoutX="371.0" layoutY="94.0" mnemonicParsing="false" onAction="#onTypeMonthReportButton" text="Type/Month Report" />
+      <Button fx:id="contactScheduleButton" layoutX="377.0" layoutY="159.0" mnemonicParsing="false" onAction="#onContactScheduleButton" text="Contact Schedule" />
+      <Button fx:id="todayAppointments" layoutX="364.0" layoutY="230.0" mnemonicParsing="false" onAction="#onTodayAppointments" text="Today's Appointments" />
+      <Button fx:id="appExitButton" layoutX="274.0" layoutY="348.0" mnemonicParsing="false" onAction="#onAppExitButton" text="Exit" />
+   </children>
+</AnchorPane>

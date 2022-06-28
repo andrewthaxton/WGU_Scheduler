@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="View_Controller.Update_CustomerController">
+   <children>
+      <Label fx:id="updateCustomerTitleLabel" layoutX="242.0" layoutY="23.0" text="Update Customer">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="customerNameLabel" layoutX="49.0" layoutY="87.0" text="Name" />
+      <Label fx:id="customerAddressLabel" layoutX="49.0" layoutY="135.0" text="Address" />
+      <Label fx:id="customerPostalLabel" layoutX="49.0" layoutY="192.0" text="Postal" />
+      <Label fx:id="customerPhoneLabel" layoutX="49.0" layoutY="246.0" text="Phone" />
+      <Label fx:id="customerIDLabel" layoutX="300.0" layoutY="87.0" text="ID" />
+      <Label fx:id="customerCountryLabel" layoutX="300.0" layoutY="144.0" text="Country" />
+      <Label fx:id="customerDivisionLabel" layoutX="300.0" layoutY="192.0" text="Division" />
+      <TextField fx:id="customerNameTextbox" layoutX="106.0" layoutY="83.0" />
+      <TextField fx:id="customerAddressTextbox" layoutX="106.0" layoutY="132.0" />
+      <TextField fx:id="customerPostalTextbox" layoutX="106.0" layoutY="188.0" />
+      <TextField fx:id="customerPhoneTextbox" layoutX="106.0" layoutY="242.0" />
+      <TextField fx:id="customerIDTextbox" disable="true" layoutX="358.0" layoutY="83.0" text="Auto Gen - Disabled" />
+      <ComboBox fx:id="customerCountryCombo" layoutX="358.0" layoutY="140.0" onAction="#onCustomerCountryCombo" prefWidth="150.0" />
+      <ComboBox fx:id="customerDivisionCombo" layoutX="358.0" layoutY="188.0" prefWidth="150.0" />
+      <Button fx:id="updateCancelButton" layoutX="507.0" layoutY="345.0" mnemonicParsing="false" onAction="#onUpdateCancelButton" text="Cancel" />
+      <Button fx:id="updateButton" layoutX="392.0" layoutY="345.0" mnemonicParsing="false" onAction="#onUpdateButton" text="Update" />
+   </children>
+</AnchorPane>

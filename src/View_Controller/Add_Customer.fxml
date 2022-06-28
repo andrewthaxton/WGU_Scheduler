@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="View_Controller.Add_CustomerController">
+   <children>
+      <Label fx:id="addCustomerTitleLabel" layoutX="253.0" layoutY="28.0" text="Add Customer">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="customerNameLabel" layoutX="49.0" layoutY="92.0" text="Name" />
+      <Label fx:id="customerAddressLabel" layoutX="49.0" layoutY="136.0" text="Address" />
+      <Label fx:id="customerPostalLabel" layoutX="49.0" layoutY="183.0" text="Postal" />
+      <Label fx:id="customerPhoneLabel" layoutX="49.0" layoutY="234.0" text="Phone" />
+      <Label fx:id="customerIdLabel" layoutX="300.0" layoutY="92.0" text="ID" />
+      <Label fx:id="customerCountryLabel" layoutX="300.0" layoutY="136.0" text="Country" />
+      <Label fx:id="customerDivisionLabel" layoutX="300.0" layoutY="183.0" text="Division" />
+      <TextField fx:id="customerNameTextbox" layoutX="112.0" layoutY="88.0" promptText="Enter Customer Name" />
+      <TextField fx:id="customerIdTextbox" disable="true" layoutX="365.0" layoutY="88.0" text="Auto Gen - Disabled">
+         <font>
+            <Font name="System Italic" size="12.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="customerAddressTextbox" layoutX="112.0" layoutY="132.0" promptText="Enter Customer Address" />
+      <TextField fx:id="customerPostalTextbox" layoutX="112.0" layoutY="179.0" promptText="Enter Customer Postal" />
+      <TextField fx:id="customerPhoneTextbox" layoutX="112.0" layoutY="230.0" promptText="Enter Customer Phone" />
+      <ComboBox fx:id="customerCountryCombo" layoutX="365.0" layoutY="132.0" onAction="#onCustomerCountryCombo" prefWidth="150.0" promptText="Select Country" />
+      <ComboBox fx:id="customerDivisionCombo" layoutX="365.0" layoutY="179.0" prefWidth="150.0" promptText="Select Division" />
+      <Button fx:id="addCancelButton" layoutX="488.0" layoutY="337.0" mnemonicParsing="false" onAction="#onAddCancelButton" text="Cancel" />
+      <Button fx:id="addButton" layoutX="376.0" layoutY="337.0" mnemonicParsing="false" onAction="#onAddButton" text="Add" />
+   </children>
+</AnchorPane>
