@@ -1,6 +1,8 @@
 # WGU_Scheduler
 WGU project to create a scheduling application to demonstrate advanced Java concepts
+
 Thaxton Scheduler
+
 A scheduling application designed to work across different timezones and languages.
 
 Author: Andrew Thaxton
