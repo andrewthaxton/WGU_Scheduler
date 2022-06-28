@@ -7,10 +7,6 @@ A scheduling application designed to work across different timezones and languag
 
 Author: Andrew Thaxton
 
-email:athaxt3@wgu.edu
-
-Student ID: 001515619
-
 Version: 1.0
 
 Date: 8/24/2021
