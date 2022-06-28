@@ -6,13 +6,19 @@ Thaxton Scheduler
 A scheduling application designed to work across different timezones and languages.
 
 Author: Andrew Thaxton
+
 email:athaxt3@wgu.edu
+
 Student ID: 001515619
+
 Version: 1.0
+
 Date: 8/24/2021
 
 IDE: Intellij IDEA Community Edition 2021.1.3
+
 JDK: version 11.0.11
+
 JavaFX: version 11.0.2
 
 How to run program: Logging in with username and password opens an alert displaying upcoming appointments (if any).
